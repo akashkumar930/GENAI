@@ -39,4 +39,4 @@ while True:
     res = model.invoke(messages)
     messages.append(AIMessage(content=res.content))
     print("BOT: ",res.content)
-    print(messages)
+    print(messages) 
